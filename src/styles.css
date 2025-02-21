@@ -11,11 +11,13 @@
   }
 
   .markdown-content h1 {
-    font-size: 2rem; /* Same as text-2xl */
-    font-weight: light;
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
+    @apply text-4xl my-4;
   }
+
+  .markdown-content h2 {
+    @apply text-2xl my-2;
+  }
+
 
   .markdown-content p {
     font-size: 1rem;
@@ -32,7 +34,7 @@
   }
 
   .markdown-content ul {
-    list-style-type: disc;
+    list-style-type: square;
     margin-left: 1.5rem;
   }
 
