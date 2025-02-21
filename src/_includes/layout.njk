@@ -26,26 +26,23 @@
 </head>
 
 <body class="font-montserrat bg-white ">
+<!-- <body class="font-montserrat bg-gray-300 "> -->
 
-{# Was testing fonts :D #}
-{# <div class="fixed t-0 l-0 flex-col">
+
+ <!-- Was testing fonts :D  -->
+ <!-- <div class="fixed t-0 l-0 flex-col">
 <p class="font-sans">Normal font: ASDF asdf</p>
 <p class="font-test">Test font: ASDF asdf</p>
 <p class="font-montserrat">Montserrat font: ASDF asdf</p>
-</div> #}
+</div> --> 
 
 <div class= "max-w-4xl mx-auto flex-col items-center">
 
-<div class="max-w-4xl fixed top-0 z-10 w-full flex-col items-center bg-white">
+<div class="max-w-4xl px-2 fixed top-0 z-10 w-full flex-col items-center bg-white">
 <!-- Header with name -->
 <header class="flex items-center bg-white text-gray-800">
   <h1 class="mr-auto text-4xl text-left p-4 pl-0">Kerem Dayı</h1>
-  {# <nav class="flex gap-2">
-    <a class="text-red-900 hover:text-yellow-500" href="#">Link 1</a>
-    <a class="text-red-900 hover:text-yellow-500" href="#">Link 2</a>
-  </nav> #}
   
-
 </header>
 
 <!-- Header containing navigation menu-->
@@ -64,11 +61,6 @@
          alt="Google Scholar Icon" class="w-5 h-5 mr-2">
   </a>
 
- <!--  <a class="flex items-center text-red-900 hover:text-yellow-500" href="https://www.linkedin.com">
-    <img src="https://www.google.com/s2/favicons?sz=24&domain=https://www.linkedin.com/in/arif-kerem-dayi/" 
-         alt="Linkedin Icon" class="w-5 h-5 mr-2">
-  </a> -->
-
   <a class="flex items-center text-red-900 hover:text-yellow-500" href="https://github.com/keremdayi2">
     <img src="https://www.google.com/s2/favicons?sz=24&domain=https://github.com" 
          alt="Gmail" class="w-5 h-5 mr-2">
@@ -85,9 +77,10 @@
 </div>
 
 <!-- Main content -->
-<main class="w-full markdown-content z-0 mx-auto overflow-y-auto pb-10 bg-white">
+<main class="w-full px-2 z-0 mx-auto overflow-y-auto pb-5 bg-white">
   <div class="h-[20vh]"></div>
-    {{ content | safe }}
+  <div class="markdown-content">{{ content | safe }}</div>
+
 </main>
 
 <footer class="w-full bg-white text-sm text-gray-700 p-4">
