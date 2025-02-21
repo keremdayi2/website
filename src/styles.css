@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.markdown-content {
+    font-family: inherit;
+    color: #1a202c; /* Tailwind text-gray-900 */
+    line-height: 1.5;
+  }
+
+  .markdown-content h1 {
+    font-size: 2rem; /* Same as text-2xl */
+    font-weight: light;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .markdown-content p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .markdown-content a {
+    @apply text-red-900;
+  }
+
+  .markdown-content a:hover {
+    @apply text-yellow-500;
+  }
+
+  .markdown-content ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+  }
+
+  .markdown-content code {
+    @apply bg-gray-300 font-mono text-sm px-1 w-full;
+  }
+
+  .katex,
+  .katex-display,
+  .katex-html {
+    z-index: auto !important;
+    position: relative;
+  }
