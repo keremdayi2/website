@@ -18,8 +18,7 @@ Previously, I was fortunate work on distributed optimization advised by Stephani
 * Making algorithms resilient to malicious attacks using the _trust framework_ from cyberphysical systems.
 
 ## Selected Publications
-Publications listed in reverse chronological order, \* denotes equal contribution.
-
+Publications listed in reverse chronological order, \* denotes equal contribution. You can also see a full list of my research projects on my [Google Scholar](https://scholar.google.com/citations?user=PzQ0aAsAAAAJ&hl=en&oi=ao) page.
 
 * **Dayi, Arif Kerem**, and Sitan Chen. [Gradient dynamics for low-rank fine-tuning beyond kernels.](https://arxiv.org/abs/2411.15385) arXiv preprint arXiv:2411.15385 (2024).
 
@@ -32,4 +31,3 @@ Publications listed in reverse chronological order, \* denotes equal contributio
 
 <!-- * **Dayı, Arif Kerem**, Volkan Rodoplu, Mert Nakip, Buse Pehlivan, and Cüneyt Güzeliş. [Multi-Channel Subset Iteration with Minimal Loss in Available Capacity (MC-SIMLAC) Algorithm for Joint Forecasting-Scheduling in the Internet of Things.](https://isyou.info/jowua/papers/jowua-v13n2-3.pdf) Journal of Wireless Mobile Networks, Ubiquitous Computing, and Dependable Applications 13, no. 2 (2022). -->
 
-You can also see a full list of my research projects on my [Google Scholar](https://scholar.google.com/citations?user=PzQ0aAsAAAAJ&hl=en&oi=ao) page.

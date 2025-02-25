@@ -78,8 +78,16 @@
 
 <!-- Main content -->
 <main class="w-full px-2 z-0 mx-auto overflow-y-auto pb-5 bg-white">
+        
+    <div class="flex flex-col md:flex-row gap-6 items-center">
+  <!-- You can change positioning by adjusting these classes -->
+    <div class="markdown-content">{{ content | safe }} </div>
+    <div class="w-full md flex justify-center items-center mt-4 md:mt-0">
+          <img src="/assets/kerem.jpeg" alt="picture" class="rounded-lg shadow-md max-w-full h-auto" width="240" height="240" onerror="this.src='/api/placeholder/240/240'; this.alt='Profile picture placeholder'">
+  </div>
 
-  <div class="markdown-content">{{ content | safe }} </div>
+</div>
+
 
 </main>
 
