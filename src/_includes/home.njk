@@ -76,19 +76,24 @@
 <hr class="w-full border-gray-800"> 
 </div>
 
+
+
 <!-- Main content -->
 <main class="w-full px-2 z-0 mx-auto overflow-y-auto pb-5 bg-white">
-        
-    <div class="flex flex-col md:flex-row gap-6 items-center">
-  <!-- You can change positioning by adjusting these classes -->
-    <div class="markdown-content">{{ content | safe }} </div>
-    <div class="w-full md flex justify-center items-center mt-4 md:mt-0">
-          <img src="/assets/kerem.jpeg" alt="picture" class="rounded-lg shadow-md max-w-full h-auto" width="240" height="240" onerror="this.src='/api/placeholder/240/240'; this.alt='Profile picture placeholder'">
+  <div class="flex flex-col md:flex-row gap-6 items-center">
+    <!-- Content section - takes 2/3 width on desktop -->
+    <div class="w-full md:w-2/3">
+      <div class="markdown-content">{{ content | safe }}</div>
+    </div>
+    
+    <!-- Image section - takes 1/3 width on desktop, right-aligned, vertically centered -->
+    <div class="w-full md:w-1/3 flex justify-center items-center mt-4 md:mt-0">
+      <img src="/assets/kerem.jpeg" alt="Kerem Dayı" 
+           class="rounded-lg shadow-md max-w-full h-auto" 
+           width="240" height="240" 
+           onerror="this.src='/api/placeholder/240/240'; this.alt='Profile picture placeholder'">
+    </div>
   </div>
-
-</div>
-
-
 </main>
 
 <!-- footer -->

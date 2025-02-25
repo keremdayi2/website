@@ -2,8 +2,6 @@
 layout: home.njk
 title: Home
 ---
-
-
 # About me
 
 I am currently a final year undergraduate at Harvard College working towards an A.B. in Computer Science and Mathematics and an S.M. in Computer Science. Outside of work, I enjoy listening to music, playing the guitar, bass, and piano, and reading. 
