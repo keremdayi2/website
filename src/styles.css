@@ -46,6 +46,7 @@
     @apply bg-gray-300 font-mono text-sm px-1 w-full;
   }
 
+/* send katex display to background */
   .katex,
   .katex-display,
   .katex-html {
